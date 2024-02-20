@@ -30,28 +30,8 @@ ul a{
 .titulo{
     text-align: center;
 }
-/* MOD - MENU*/
 
-/* MOD - MAIN*/
-
-/* MOD - GRADE*/
-.grade{
-    display: grid;
-    gap: 22px;
-    grid-template-columns: repeat(auto-fill, minmax(320px,1fr));
-}
-.grade img{
-    width: 100%;
-}
-/* MOD - PRODUTOS*/
 .produto{
-    padding: 53px;
-    background-color: #cacaca;
-    margin-left: auto;
-    margin-right: auto;
-    width: 310px;
-    margin: 11px;
-    border-radius: 10px;   
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
 }
@@ -61,22 +41,6 @@ ul a{
 }
 .produto a{
     text-decoration: none;
-}
-.produto h1{
-    width: 100%;
-}
-/* MOD - BOTÃO*/
-.botao{
-    background-color: darkorange;
-    margin-top:50%;
-    border-radius: 10px;
-    color:white;
-    align-items: center;
-    width: 200px;
-    padding: 10px;
-}
-.botao:hover{
-    background-color: rgb(185, 102, 0);
 }
 /* MOD - RODAPE*/
 .rodape{
