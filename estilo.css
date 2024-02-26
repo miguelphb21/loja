@@ -5,6 +5,10 @@
 body{
     background-color: rgb(255, 255, 255);
 }
+/* MOD - BLOCO */
+.bloco{
+    text-align: center;
+}
 /* MOD - CABEÇALHO*/
 .cabecalho{
     background-color: rgb(0, 0, 0);
@@ -20,11 +24,18 @@ ul{
     margin-left: auto;
     font-size: 30px;
     display: flex;
+    margin-top: 20px;
 }
 ul a{
     text-decoration: none;
     color: aliceblue;
     margin: 10px;
+
+}
+ul a:hover{
+    background-color: #91919127;
+    border-radius: 5px;
+    padding: 10px;
 }
 /* MOD - TITULO*/
 .titulo{
@@ -35,13 +46,15 @@ ul a{
 /* MOD - MAIN*/
 
 /* MOD - GRADE*/
-.grade{
+.grid-container{
     display: grid;
     gap: 22px;
     grid-template-columns: repeat(auto-fill, minmax(320px,1fr));
+    display:flex;
 }
-.grade img{
+.produto img{
     width: 100%;
+    margin:20px;
 }
 /* MOD - PRODUTOS*/
 .produto{

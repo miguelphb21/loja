@@ -15,16 +15,23 @@ body{
     display: flex;
 }
 /* MOD - LISTA*/
-ul{
+.menu{
     list-style: none;
     margin-left: auto;
     font-size: 30px;
     display: flex;
+    margin-top: 20px;
 }
-ul a{
+.menu a{
     text-decoration: none;
     color: aliceblue;
     margin: 10px;
+
+}
+.menu a:hover{
+    background-color: #91919127;
+    border-radius: 5px;
+    padding: 10px;
 }
 /* MOD - TITULO*/
 .titulo{
