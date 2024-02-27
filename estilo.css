@@ -48,22 +48,18 @@ ul a:hover{
 /* MOD - GRADE*/
 .grid-container{
     display: grid;
-    gap: 22px;
+    gap: 20px;
     grid-template-columns: repeat(auto-fill, minmax(320px,1fr));
-    display:flex;
 }
-.produto img{
-    width: 100%;
-    margin:20px;
-}
+
 /* MOD - PRODUTOS*/
 .produto{
     padding: 53px;
     background-color: #cacaca;
     margin-left: auto;
     margin-right: auto;
-    width: 310px;
-    margin: 11px;
+    width: 320px;
+    margin: 20px;
     border-radius: 10px;   
     font-family: Arial, Verdana, Helvética;
     text-align: center;
@@ -79,22 +75,54 @@ ul a:hover{
     width: 100%;
 }
 .produto p{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: futura; 
     font-size: 25px;
     margin-top: 10px;
 }
+.corte{
+    border-radius: 10px;
+}
+.produto img{
+    width: 100%;
+    margin:20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cartao{
+    color: rgb(43, 43, 43);
+    font-size: 5px;
+}
+/* MOD - VERMAIS*/
+.vm{
+text-align: center;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+border-radius: 10px;
+font-size: 20px;
+font-family: 'Times New Roman', Times, serif;
+margin-left: auto;
+margin-right: auto;
+width: 150px;
+margin-bottom: 10px;
+border-style: solid;
+}
+.vm :hover{
+    background-color: rgb(54, 54, 54);
+}
 /* MOD - BOTÃO*/
 .botao{
-    background-color: darkorange;
-    margin-top:50%;
+    background-color: rgb(5, 5, 5);
     border-radius: 10px;
     color:white;
-    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
     width: 200px;
+    margin-top: 10px;
     padding: 10px;
+    border: 0;
 }
 .botao:hover{
-    background-color: rgb(185, 102, 0);
+    background-color: rgb(68, 68, 68);
 }
 /* MOD - RODAPE*/
 .rodape{
