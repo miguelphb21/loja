@@ -65,18 +65,21 @@ ul a:hover{
     text-align: center;
 }
 .produto:hover{
-    border-color: rgb(22, 22, 22);
+    border-color: rgb(87, 87, 87);
     border-style:solid;
 }
 .produto a{
     text-decoration: none;
 }
 .produto h1{
-    width: 100%;
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #2d293d;
 }
+/*'Trebuchet MS'*/
 .produto p{
     font-family: futura; 
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 10px;
 }
 .corte{
@@ -93,7 +96,7 @@ ul a:hover{
     font-size: 5px;
 }
 /* MOD - VERMAIS*/
-.vm{
+/*.vm{
 text-align: center;
 background-color: rgb(255, 255, 255);
 color: rgb(0, 0, 0);
@@ -108,7 +111,7 @@ border-style: solid;
 }
 .vm :hover{
     background-color: rgb(54, 54, 54);
-}
+}*/
 /* MOD - BOTÃO*/
 .botao{
     background-color: rgb(5, 5, 5);
