@@ -18,6 +18,13 @@ body{
     margin-right: auto;
     display: flex;
 }
+.logo{
+    
+}
+/* MOD - LOGO*/
+.logo a{
+    width: 30px;
+}
 /* MOD - LISTA*/
 ul{
     list-style: none;
@@ -45,6 +52,16 @@ ul a:hover{
 
 /* MOD - MAIN*/
 
+/* MOD - BANNER*/
+.banner{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-bottom: 30px;
+    max-width: 100%;
+}
+
 /* MOD - GRADE*/
 .grid-container{
     display: grid;
@@ -65,8 +82,8 @@ ul a:hover{
     text-align: center;
 }
 .produto:hover{
-    border-color: rgb(87, 87, 87);
-    border-style:solid;
+    border-color: rgb(87, 87, 87) rgb(2, 69, 255) rgb(78, 163, 12) rgb(141, 16, 16);
+    border-style:solid ;
 }
 .produto a{
     text-decoration: none;
