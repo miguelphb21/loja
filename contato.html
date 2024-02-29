@@ -3,29 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="css/estilo.css">
     <title>sem rumo</title>
 </head>
 <body>
-   <header class="cabecalho">
-    <a href="index.html"><img src="logo.png" alt="logo da loja"></a>
-    <nav>
-    <ul>
-        <li><a href="contato.html">contato  </a></li> 
-        <li><a href="produtos.html">produtos</a></li>
-        <li><a href="carrinho.html">carrinho</a></li>
-    </ul>
+<header class="cabecalho">
+        <nav class="navegacao">
+            <div class="bloco">
+        <a href="index.html"><img src="imagens/logo.png" alt="logo da loja"></a>
+            </div>
+        <ul class="menu">
+            <li><a href="contato.html">contato</li></a>
+            <li><a href="produtos.html">produtos</li></a>
+            <li><a href="carrinho.html">carrinho</li></a>
+        </ul>
     </nav>
-   </header>
-    <main class="menu">
-        <h1 class="titulo">CONTATO</h1>
-    <p class="texto">UI</p>
+</header>
+<main>
     <form class="contato">
         <label class="rotulo">
             Nome
             <input class="campo" type="text">
         </label>
-
         <label class="rotulo">
             E-mail
             <input class="campo" type="email">
@@ -35,20 +34,18 @@
             Assunto
             <select class="campo">
             <option>Dúvidas</option>
-            <option>Sugestões</option>
-            <option>Críticas</option>
+            <option>Soluções</option>
+            <option>Críticas</option>     
             </select>
         </label>
-    
-        
-        <label class="rotulo">
-        Mensagem
-        <textarea class="campo"></textarea>
-        </label>
-        <button class="botao">Enviar</button>
-    </form>
 
-   </main>
+        <label class="rotulo">
+            Mensagem
+            <textarea class="campo"></textarea>
+            <button class="button">Enviar</button>
+        </label>
+    </form>
+</main>
    <footer class="rodape">
     <p>AUTOR: MiguelPHB </p>
    </footer>
