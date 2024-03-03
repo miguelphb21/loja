@@ -14,21 +14,26 @@ body{
     margin-right: auto;
     display: flex;
 }
+/* MOD - LOGO*/
+
+.logo{
+    width:122px;
+}
 /* MOD - LISTA*/
-.menu{
+.meni{
     list-style: none;
     margin-left: auto;
-    font-size: 30px;
+    font-size: 17px;
     display: flex;
     margin-top: 20px;
+    margin-right: 42px;
 }
 .menu a{
     text-decoration: none;
     color: aliceblue;
     margin: 10px;
 
-}
-.menu a:hover{
+}.menu a:hover{
     background-color: #91919127;
     border-radius: 5px;
     padding: 10px;
